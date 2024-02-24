@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Props from './src/ex_2';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Aula introdução React-Native!</Text>
+      <Props mensagem={'Teste'} />
+      <Props mensagem={'Outro Teste'} />
+
       <StatusBar style="auto" />
     </View>
   );
