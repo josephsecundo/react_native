@@ -1,15 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Props from './src/ex_2';
+import Index from './src/atividade_1';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Props mensagem={'Teste'} />
-      <Props mensagem={'Outro Teste'} />
-
-      <StatusBar style="auto" />
+      
+      <Index/>
     </View>
   );
 }
@@ -17,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#90CAF9',
     alignItems: 'center',
     justifyContent: 'center',
   },
