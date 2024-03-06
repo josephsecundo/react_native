@@ -1,14 +1,14 @@
 import * as React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
 
-import logo from '../assets/react-native.png';
+import styles from './styles.js';
 
-
-export default function Index(){
+export default function index(){
     return (
-        <View style={StyleSheet.container}>
-        <Image source={logo} style={{width: '100%', height: '15%' }}/>
-        <Text style={Styles.paragraph}>
+        <View style={styles.container}>
+            <Image source={require('../../assets/react-native.png')}
+            style={styles.image}/>
+        <Text style={styles.titulo}>
             Exemplo 2           
         </Text>
         </View>
