@@ -3,13 +3,15 @@ import { StyleSheet, Text, View } from 'react-native';
 
 // import Index from './src/atividade_1';
 
-import Atividade_1 from './src/atividade_3';
+// import Atividade_1 from './src/atividade_3';
+
+import Exemplo_04 from './src/ex_4';
 
 export default function App() {
   return (
     <View style={styles.container}>
       
-      <Atividade_1/>
+      <Exemplo_04/>
     </View>
   );
 }
